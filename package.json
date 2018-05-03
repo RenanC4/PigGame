@@ -8,11 +8,7 @@
     "http-post": "^0.1.1",
     "http-proxy": "^1.8.1"
   },
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
-  "repository": {
+    "repository": {
     "type": "git",
     "url": "https://github.com/IBM-Bluemix/bluemix-hello-node.git"
   }
