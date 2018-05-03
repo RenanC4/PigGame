@@ -3,7 +3,7 @@ var express = require("express"),
 
 var port = process.env.PORT || 8080;
 
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname));
 
 app.get("/sayHello", function (request, response) {
   var user_name = request.query.user_name;
